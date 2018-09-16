@@ -27,7 +27,7 @@ __opapp_include(readme.md)
 [survey]
 id = ZuePaZ_Suedhang
 type = lime
-responsibility = Admin
+responsibility = patient_via_assessment
 name = Zuepaz
 host = limesurvey_v2
 survey_id = 743827
@@ -38,7 +38,7 @@ min_questions =
 min_lastpage = 4
 
 [event exit]
-responsibility = Admin
+responsibility = patient_via_assessment
 type = before_exit
 days = 7
 time = 07:00
